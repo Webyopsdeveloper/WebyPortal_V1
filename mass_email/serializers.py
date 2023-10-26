@@ -1,3 +1,15 @@
+# # serializers.py
+# from rest_framework import serializers
+# from .models import Email
+
+# class EmailSerializer(serializers.ModelSerializer):
+#     cc = serializers.EmailField(required=False, allow_blank=True)
+#     bcc = serializers.EmailField(required=False, allow_blank=True)
+
+#     class Meta:
+#         model = Email
+#         fields = ('username', 'password', 'subject', 'message', 'recipients', 'cc', 'bcc')
+
 
 
 from rest_framework import serializers

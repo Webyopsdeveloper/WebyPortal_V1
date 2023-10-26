@@ -1,4 +1,4 @@
-"""image_processing_project_MAIN URL Configuration
+"""image_processing_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -20,9 +20,9 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('image_processing_app.urls')),
-    path('api/', include('api.urls')),
-    path('api/csv/', include('csvupload.urls')),
     path('api/',include('get_sheets_app.urls')),
     path("api/", include('mass_email.urls')),
     path('api/',include('login_signup.urls')),
+    path('api/',include('excel_mining.urls')),
+    path('api/', include('webyops.urls')),
 ]

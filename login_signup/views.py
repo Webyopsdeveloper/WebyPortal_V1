@@ -11,6 +11,7 @@ class UserRegistration(APIView):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
+            # return Response(serializer.data, status=status.HTTP_201_CREATED)
             return Response({'message': 'created'}, status=status.HTTP_200_OK)
         return Response({'message': 'already exist'}, status=status.HTTP_200_OK)
 
