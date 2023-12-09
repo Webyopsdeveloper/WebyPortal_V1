@@ -1,0 +1,25 @@
+At its core, Object-Oriented Programming is built upon a few key concepts that 
+we're going to explore:
+
+Classes and Objects: In OOP, a "class" is like a blueprint or template for creating 
+objects. Objects are instances of classes. For instance, if you think about a "Car" 
+class, each specific car you see on the road is an object created from that class.
+
+Attributes and Methods: Objects have attributes that define their characteristics, 
+and they have methods which are functions that describe their behaviors. 
+Going back to the "Car" example, attributes could be things like the car's color, 
+make, and model, while methods could include actions like starting the engine or 
+honking the horn.
+
+Encapsulation: This concept involves bundling attributes and methods together within 
+a class. It's like putting all the related information and actions for a particular 
+concept in one organized place.
+
+Inheritance: With inheritance, we can create new classes that inherit attributes 
+and methods from existing classes. This promotes code reuse and allows us to 
+create more specialized classes based on a common foundation.
+
+Polymorphism: This big word simply means that objects of different classes can 
+be treated as objects of the same superclass. It enables us to write code that 
+works with a variety of objects without worrying about their specific types.
+
